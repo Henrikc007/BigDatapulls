@@ -1,0 +1,1 @@
+#jeg henter data fra dataSamling, filtrere det og laver passende dataframes
