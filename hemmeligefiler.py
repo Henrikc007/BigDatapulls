@@ -1,6 +1,8 @@
-ipadresse = "127.0.0.1"
-brugernavn = "root"
-brugerpw = "alle1sql2specialister!"
+import os
+
+ipadresse = os.getenv("db_lokal_ip")
+brugernavn = os.getenv("db_lokal_brugernavn")
+brugerpw = os.getenv("db.lokal.brugernavn")
 mindatabase = "northwind"
 
 class MySecrets:
